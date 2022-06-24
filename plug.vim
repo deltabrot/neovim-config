@@ -6,5 +6,6 @@ Plug 'fatih/vim-go'
 Plug 'leafgarland/typescript-vim'
 Plug 'posva/vim-vue'
 Plug 'Quramy/tsuquyomi'
+Plug 'ibhagwan/fzf-lua', {'branch': 'main'}
 call plug#end()
 

@@ -1,4 +1,8 @@
+" plugins
 runtime plug.vim
+
+" lua
+lua require('init')
 
 " vim
 set secure
@@ -34,3 +38,4 @@ runtime golang.vim
 runtime nerdtree.vim
 runtime typescript.vim
 runtime vue.vim
+runtime fzf.vim
