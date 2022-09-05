@@ -12,6 +12,11 @@ set background=dark
 set mouse=
 syntax on
 
+" set ruler
+set colorcolumn=80,100
+"highlight ColorColumn ctermbg=darkgray
+highlight ColorColumn ctermbg=235
+
 " tabs
 set shiftwidth=4
 set tabstop=4
@@ -34,8 +39,10 @@ hi StatusLineNC ctermbg=235 ctermfg=240
 " set matching parentheses color
 hi MatchParen ctermbg=19 ctermfg=white
 
+
 runtime golang.vim
 runtime nerdtree.vim
 runtime typescript.vim
 runtime vue.vim
 runtime fzf.vim
+runtime prettier.vim

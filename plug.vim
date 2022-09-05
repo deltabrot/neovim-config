@@ -7,5 +7,7 @@ Plug 'leafgarland/typescript-vim'
 Plug 'posva/vim-vue'
 Plug 'Quramy/tsuquyomi'
 Plug 'ibhagwan/fzf-lua', {'branch': 'main'}
+Plug 'prettier/vim-prettier'
+Plug 'peitalin/vim-jsx-typescript'
 call plug#end()
 
